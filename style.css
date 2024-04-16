@@ -1,0 +1,52 @@
+/* Add your CSS styles here */
+
+.maindiv{
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.examples{
+    margin: 20px auto;
+    padding: 20px 30px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p#result {
+    margin-top: 10px;
+    font-weight: bold;
+}

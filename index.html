@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+    <div class="container">
+        <h1>URL Validator</h1>
+        <form id="urlForm">
+            <label for="urlInput">Enter URL:</label>
+            <input type="text" id="urlInput" name="url" required>
+            <button type="button" onclick="checkPhishing()">Validate</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <div class="examples">
+        <h1>
+            URL test samples
+        </h1>
+
+        <u><h3>Legit URLs</h3></u>
+
+        <ul>
+        <li><h4>https://www.openai.com</h4></li>
+        <li><h4>https://miro.medium.com/v2/resize:fit:720/1*7a3QWIQzVjlhlww.png</h4></li>
+        <li><h4>https://blog.example.com</h4></li>
+        </ul>
+
+        <u><h3>Phishy URLs</h3></u>
+        <ul>
+        <li><h4>https://verify-account-bankofamerica.com</h4></li>
+        <li><h4>https://secure-login-paypal.com</h4></li>
+        <li><h4>https://123.45.67.89/login</h4></li>
+        </ul>
+    </div>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
